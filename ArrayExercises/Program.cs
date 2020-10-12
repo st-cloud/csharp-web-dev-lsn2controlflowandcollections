@@ -7,6 +7,18 @@ namespace ArrayExercises
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Arrays!");
+
+            int[] firstArray = { 1, 1, 2, 3, 5, 8 };
+
+            foreach (int i in firstArray)
+            {
+                if (i % 2 != 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+            Console.ReadLine();
         }
     }
 }
